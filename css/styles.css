@@ -1,5 +1,16 @@
 /* -------index.html------- */
 
+.hero-item::before{
+  display:block ;
+  content: ;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ccc;
+}
+
+
 /* -------body------- */
 
 body {

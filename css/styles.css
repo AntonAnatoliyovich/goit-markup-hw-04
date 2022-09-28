@@ -1,5 +1,7 @@
 /* -------index.html------- */
 
+
+
 /* -------body------- */
 
 body {
@@ -173,6 +175,8 @@ border: 1px solid #ECECEC;
 
 .header-mail {
   color: var(--second-color);
+  
+  display: flex;
 
   font-weight: 500;
   font-size: 14px;
@@ -188,6 +192,8 @@ border: 1px solid #ECECEC;
 .header-tel {
   color: var(--second-color);
 
+  display: flex;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -201,6 +207,8 @@ border: 1px solid #ECECEC;
 
 .hero {
   background-color: #2f303a;
+
+
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
@@ -213,6 +221,7 @@ border: 1px solid #ECECEC;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+
 
   padding: 200px 0px;
 }

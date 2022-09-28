@@ -364,6 +364,11 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
+.hero-list-icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
 .hero-icon {
   display: inline-flex;
@@ -373,8 +378,14 @@ border: 1px solid #ECECEC;
   background-color: yellow;
 }
 
+.hero-title-fifth-client {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 .client-logo {
-  display: inline-flex;
+  display: inline-block;
   background-color: #AFB1B8;
   width: 170px;
   height: 92px;
@@ -476,6 +487,12 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+}
+
+.footer-link-icon, .footer-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .footer-icon{

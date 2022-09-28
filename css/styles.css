@@ -373,6 +373,13 @@ border: 1px solid #ECECEC;
   background-color: yellow;
 }
 
+.client-logo {
+  display: inline-flex;
+  background-color: #AFB1B8;
+  width: 170px;
+  height: 92px;
+}
+
 /* -------main------- */
 
 /* -------footer------- */
@@ -459,6 +466,26 @@ border: 1px solid #ECECEC;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.footer-link {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.footer-icon{
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
 
 /* -------footer------- */
 

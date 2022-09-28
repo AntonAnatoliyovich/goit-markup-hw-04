@@ -201,12 +201,23 @@ border: 1px solid #ECECEC;
 
 .hero {
   background-color: #2f303a;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+  background-image: url(../image/background.jpg);
+  min-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
   padding: 200px 0px;
 }
 
 .hero-section {
-
   text-align: center;
 }
 

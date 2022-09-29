@@ -166,6 +166,9 @@ border: 1px solid #ECECEC;
 }
 
 .header-item-second {
+  display: block;
+  /* width: 161px; */
+  height: 16px;
 }
 
 .header-mail:hover,
@@ -176,12 +179,28 @@ border: 1px solid #ECECEC;
 .header-mail {
   color: var(--second-color);
   
-  display: flex;
+  display: block;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-mail-icon-mail {
+  width: 16px;
+  height: 12px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-mail-icon-smartphone {
+  width: 16px;
+  height: 12px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-tel:hover,
@@ -192,7 +211,7 @@ border: 1px solid #ECECEC;
 .header-tel {
   color: var(--second-color);
 
-  display: flex;
+  display: block;
 
   font-weight: 500;
   font-size: 14px;
@@ -364,7 +383,7 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
-.hero-list-icon {
+.hero-list-fourth-icon {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -378,7 +397,7 @@ border: 1px solid #ECECEC;
   background-color: yellow;
 }
 
-.hero-title-fifth-client {
+.hero-list-fifth-client {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -478,7 +497,7 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
-.footer-link {
+.footer-title {
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -489,7 +508,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.footer-link-icon, .footer-div {
+.footer-list-icon {
   display: flex;
   text-align: center;
   justify-content: center;

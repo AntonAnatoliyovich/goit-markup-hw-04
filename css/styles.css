@@ -1,4 +1,4 @@
-/* -------index.html------- */
+/* -------INDEX.HTML------- */
 
 
 
@@ -100,7 +100,7 @@ address {
 /* -------header------- */
 
 .header {
-border: 1px solid #ECECEC;
+  border: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -112,12 +112,6 @@ border: 1px solid #ECECEC;
 .container-style {
   display: flex;
   align-items: center;
-}
-
-.header-list {
-  display: flex;
-  align-items: center;
-  gap: 50px;
 }
 
 .header-logo {
@@ -141,14 +135,12 @@ border: 1px solid #ECECEC;
 }
 
 .header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .header-item {
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
 }
 
 .header-link {
@@ -160,6 +152,11 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.02em;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
 .header-list-second {
   display: flex;
   gap: 50px;
@@ -167,13 +164,7 @@ border: 1px solid #ECECEC;
 
 .header-item-second {
   display: block;
-  /* width: 161px; */
   height: 16px;
-}
-
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-color);
 }
 
 .header-mail {
@@ -187,25 +178,17 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.02em;
 }
 
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
 .header-mail-icon-mail {
   width: 16px;
   height: 12px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.header-mail-icon-smartphone {
-  width: 16px;
-  height: 12px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
 }
 
 .header-tel {
@@ -219,6 +202,19 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.02em;
 }
 
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-mail-icon-smartphone {
+  width: 16px;
+  height: 12px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* -------header------- */
 
 
@@ -226,7 +222,6 @@ border: 1px solid #ECECEC;
 
 .hero {
   background-color: #2f303a;
-
 
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
@@ -389,12 +384,21 @@ border: 1px solid #ECECEC;
   justify-content: center;
 }
 
+.hero-item-fourth-icon {
+}
+
 .hero-icon {
   display: inline-flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: yellow;
+}
+
+.hero-item-icon {
+}
+
+.hero-title-fifth {
 }
 
 .hero-list-fifth-client {
@@ -421,9 +425,6 @@ border: 1px solid #ECECEC;
   padding-bottom: 60px;
 }
 
-.footer-container {
-}
-
 .footer-logo {
 }
 
@@ -446,11 +447,6 @@ border: 1px solid #ECECEC;
   max-width: 231px;
 }
 
-.footer-map:hover,
-.footer-map:focus {
-  color: var(--accent-color);
-}
-
 .footer-map {
   color: var(--white-color);
 
@@ -460,15 +456,15 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
+.footer-map:hover,
+.footer-map:focus {
+  color: var(--accent-color);
+}
+
 .footer-list {
 }
 
 .footer-item {
-}
-
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--accent-color);
 }
 
 .footer-mail {
@@ -483,8 +479,8 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-mail:hover,
+.footer-mail:focus {
   color: var(--accent-color);
 }
 
@@ -497,15 +493,23 @@ border: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+
+.footer-div {
+}
+
 .footer-title {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .footer-list-icon {
@@ -514,7 +518,10 @@ color: #FFFFFF;
   justify-content: center;
 }
 
-.footer-icon{
+.footer-item-second {
+}
+
+.footer-icon {
   display: inline-flex;
   width: 44px;
   height: 44px;
@@ -522,10 +529,14 @@ color: #FFFFFF;
   background-color: yellow;
 }
 
-
 /* -------footer------- */
 
-/* -------portfolio.html------- */
+
+
+
+/* -------PORTFOLIO.HTML------- */
+
+
 
 /* -------main------- */
 

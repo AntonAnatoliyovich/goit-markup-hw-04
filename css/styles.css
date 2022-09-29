@@ -508,7 +508,11 @@ address {
   color: var(--accent-color);
 }
 
-.footer-div {
+.footer-div1 {
+}
+
+.footer-div2 {
+  margin-left: 70px;
 }
 
 .footer-title {

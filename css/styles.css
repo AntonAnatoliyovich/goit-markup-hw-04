@@ -233,7 +233,7 @@ address {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -308,6 +308,8 @@ address {
   justify-content: center;
   text-align: center;
   background-color: #F5F4FA;
+
+  margin-bottom: 30px;
 }
 
 .hero-text {
@@ -319,7 +321,7 @@ address {
 }
 
 .hero-third {
-  padding-bottom: 94px;
+  padding-bottom: 81px;
 }
 
 .hero-title-third {
@@ -339,8 +341,13 @@ address {
 .hero-fourth {
 }
 
+.hero-fourth-container {
+  background-color: #F5F4FA;
+}
+
 .hero-title-fourth {
   margin: 0 auto;
+  padding-top: 107px;
   margin-bottom: 50px;
 }
 

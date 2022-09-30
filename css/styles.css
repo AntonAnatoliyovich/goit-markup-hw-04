@@ -289,18 +289,6 @@ address {
   width: calc((100% - 90px) / 4);
 }
 
-.hero-title-second {
-  color: var(--main-color);
-
-  margin-bottom: 10px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 .hero-title-second-icon {
   max-width: 270px;
   min-height: 120px;
@@ -314,6 +302,18 @@ address {
   padding-right: 100px;
   padding-bottom: 25px;
   padding-left: 100px;
+}
+
+.hero-title-second {
+  color: var(--main-color);
+
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .hero-text {
@@ -372,6 +372,7 @@ address {
 
 .hero-command {
   padding-top: 30px;
+  background-color: #FFFFFF;
 }
 
 .hero-title-name {
@@ -403,26 +404,26 @@ address {
 
   padding-left: 32px;
   padding-right: 32px;
+  gap: 10px;
 }
 
 .hero-item-fourth-icon {
 }
 
 .hero-icon {
-  display: inline-flex;
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: yellow;
   margin-top: 16px;
   margin-bottom: 30px;
-  margin-right: 10px;
-  padding: 6px;
 
   text-align: center;
   justify-content: center;
   align-items: baseline;
   background-size: cover;
+  background-position: center;
 }
 
 .hero-item-icon {
@@ -444,15 +445,18 @@ address {
 }
 
 .link-client {
+  display: inline-block;
+  min-width: 170px;
+  min-height: 92px;
+  border: 1px solid #AFB1B8;
 }
 
 .client-logo {
-  /* display: inline-block; */
-  max-width: 170px;
-  max-height: 92px;
-  border: 1px solid #AFB1B8;
+  display: inline-block;
   text-align: center;
   justify-content: center;
+  margin: 16px 32px;
+  
 }
 
 /* -------main------- */
@@ -548,7 +552,14 @@ address {
 }
 
 .footer-div2 {
-  margin-left: 70px;
+  min-width: 206px;
+  min-height: 80px;
+  margin-left: 156px;
+
+  display: block;
+  text-align: left;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .footer-title {
@@ -563,9 +574,12 @@ address {
 }
 
 .footer-list-icon {
-  display: flex;
+  display: inline-flex;
   text-align: center;
   justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .footer-item-second {
@@ -576,7 +590,7 @@ address {
 .footer-icon {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   
   width: 100%;
   height: 100%;

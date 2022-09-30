@@ -430,16 +430,16 @@ address {
   padding-bottom: 94px;
 }
 
+.link-client {
+}
+
 .client-logo {
-  display: inline-block;
+  /* display: inline-block; */
   max-width: 170px;
   max-height: 92px;
   border: 1px solid #AFB1B8;
   text-align: center;
   justify-content: center;
-}
-
-.link-client {
 }
 
 /* -------main------- */

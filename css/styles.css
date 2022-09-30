@@ -319,6 +319,7 @@ address {
 }
 
 .hero-third {
+  padding-bottom: 94px;
 }
 
 .hero-title-third {
@@ -352,6 +353,10 @@ address {
   width: calc((100% - 90px) / 4);
 }
 
+.client {
+  padding-bottom: 81px;
+}
+
 .hero-command {
   padding-top: 30px;
 }
@@ -382,8 +387,6 @@ address {
   text-align: center;
   justify-content: center;align-items: baseline;
 
-  margin-top: 16px;
-  margin-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -397,11 +400,12 @@ address {
   height: 44px;
   border-radius: 50%;
   background-color: yellow;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
 
 .hero-item-icon {
-  padding-top: 16px;
-  padding-bottom: 30px;
 }
 
 .hero-title-fifth {
@@ -416,7 +420,7 @@ address {
   gap: 30px;
 
   margin-top: 50px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .client-logo {

@@ -310,6 +310,10 @@ address {
   background-color: #F5F4FA;
 
   margin-bottom: 30px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
 }
 
 .hero-text {
@@ -318,6 +322,8 @@ address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  max-width: 270px;
 }
 
 .hero-third {
@@ -392,7 +398,8 @@ address {
 .hero-list-fourth-icon {
   display: flex;
   text-align: center;
-  justify-content: center;align-items: baseline;
+  justify-content: center;
+  align-items: baseline;
 
   padding-left: 32px;
   padding-right: 32px;
@@ -410,6 +417,12 @@ address {
   margin-top: 16px;
   margin-bottom: 30px;
   margin-right: 10px;
+  padding: 6px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
+  background-size: cover;
 }
 
 .hero-item-icon {

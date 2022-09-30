@@ -305,9 +305,9 @@ address {
   max-width: 270px;
   min-height: 120px;
   display: flex;
-  background-color: #F5F4FA;
   justify-content: center;
   text-align: center;
+  background-color: #F5F4FA;
 }
 
 .hero-text {
@@ -405,12 +405,20 @@ address {
   display: flex;
   text-align: center;
   justify-content: center;
+
+  gap: 30px;
+
+  margin-top: 50px;
+  margin-bottom: 94px;
 }
 
 .client-logo {
   display: inline-block;
-  width: 170px;
-  height: 92px;
+  max-width: 170px;
+  max-height: 92px;
+  border: 1px solid #AFB1B8;
+  text-align: center;
+  justify-content: center;
 }
 
 .link-client {

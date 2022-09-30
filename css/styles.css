@@ -304,7 +304,7 @@ address {
 .hero-title-second-icon {
   max-width: 270px;
   min-height: 120px;
-  display: block;
+  display: flex;
   background-color: #F5F4FA;
   justify-content: center;
   text-align: center;
@@ -409,7 +409,6 @@ address {
 
 .client-logo {
   display: inline-block;
-  background-color: #AFB1B8;
   width: 170px;
   height: 92px;
 }

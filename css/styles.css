@@ -354,7 +354,6 @@ address {
 
 .hero-command {
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .hero-title-name {
@@ -381,7 +380,12 @@ address {
 .hero-list-fourth-icon {
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: center;align-items: baseline;
+
+  margin-top: 16px;
+  margin-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .hero-item-fourth-icon {
@@ -396,6 +400,8 @@ address {
 }
 
 .hero-item-icon {
+  padding-top: 16px;
+  padding-bottom: 30px;
 }
 
 .hero-title-fifth {

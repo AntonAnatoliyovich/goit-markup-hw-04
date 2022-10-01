@@ -612,8 +612,8 @@ address {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.footer-link-icon:hover,
-.footer-link-icon:focus {
+.footer-item-second:hover,
+.footer-item-second:focus {
   background-color: #2196F3;
 }
 

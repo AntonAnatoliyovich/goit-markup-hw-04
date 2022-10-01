@@ -668,6 +668,8 @@ address {
 .main-button:focus {
   color: var(--white-color);
   background: #2196f3;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .main-button {
@@ -700,8 +702,13 @@ address {
   max-height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+
+.main-list-second-work:hover,
+.main-list-second-work:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .main-item-second {

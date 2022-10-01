@@ -184,9 +184,9 @@ address {
 .header-mail-icon-mail {
   min-width: 16px;
   min-height: 12px;
-  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 10px;
 }
 
 .header-mail-icon-mail:hover,
@@ -213,9 +213,9 @@ address {
 .header-mail-icon-phone {
   width: 16px;
   height: 12px;
-  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 10px;
 }
 
 .header-mail-icon-phone:hover,
@@ -299,15 +299,14 @@ address {
   max-width: 270px;
   min-height: 120px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
   background-color: #f5f4fa;
+  border-radius: 4px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 100px;
 }
 
 .hero-title-second {
@@ -359,7 +358,6 @@ address {
 
 .hero-title-fourth {
   margin: 0 auto;
-  padding-top: 107px;
   margin-bottom: 50px;
 }
 
@@ -454,8 +452,11 @@ address {
 .hero-item-icon {
 }
 
+.hero-section-fifth {
+  padding-bottom: 94px;
+}
+
 .hero-title-fifth {
-  margin-top: 107px;
 }
 
 .hero-list-fifth-client {
@@ -464,9 +465,6 @@ address {
   justify-content: center;
 
   gap: 30px;
-
-  margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .link-client {

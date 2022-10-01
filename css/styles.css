@@ -189,6 +189,11 @@ address {
   background-position: center;
 }
 
+.header-mail-icon-mail:hover,
+.header-mail-icon-mail:focus {
+  fill: var(--accent-color);
+}
+
 .header-tel {
   color: var(--second-color);
 
@@ -205,12 +210,17 @@ address {
   color: var(--accent-color);
 }
 
-.header-mail-icon-smartphone {
+.header-mail-icon-phone {
   width: 16px;
   height: 12px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.header-mail-icon-phone:hover,
+.header-mail-icon-phone:focus {
+  fill: var(--accent-color);
 }
 
 /* -------header------- */
@@ -427,6 +437,8 @@ address {
   justify-content: center;
   background-size: cover;
   background-position: center;
+
+  fill: #AFB1B8;
 }
 
 .hero-item-icon {
@@ -453,6 +465,8 @@ address {
   min-height: 92px;
   border: 1px solid #afb1b8;
   padding: 16px 32px;
+
+  fill: #AFB1B8;
 }
 
 .client-logo {
@@ -589,6 +603,8 @@ address {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.4);
+
+  fill: #FFFFFF;
 }
 
 .footer-icon {

@@ -182,8 +182,8 @@ address {
 }
 
 .header-mail-icon-mail {
-  width: 16px;
-  height: 12px;
+  min-width: 16px;
+  min-height: 12px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;

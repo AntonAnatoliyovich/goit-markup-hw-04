@@ -231,10 +231,10 @@ address {
   background-color: #2f303a;
 
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  );
-  background-image: url(../image/background.jpg);
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/background.jpg);
 
   max-width: 1600px;
   height: 600px;
@@ -449,7 +449,7 @@ address {
 .hero-icon:hover,
 .hero-icon:focus {
   fill: #ffffff;
-  background-color: #2196f3;;
+  background-color: #2196f3;
 }
 
 .hero-item-icon {
@@ -475,7 +475,7 @@ address {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  
+
   display: inline-flex;
   text-align: center;
   justify-content: center;
@@ -497,7 +497,7 @@ address {
 /* -------footer------- */
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 
   padding-top: 60px;
   padding-bottom: 60px;
@@ -631,7 +631,7 @@ address {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  
+
   padding: 12px;
 
   fill: #ffffff;

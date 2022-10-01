@@ -602,9 +602,13 @@ address {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.4);
+}
 
-  fill: #FFFFFF;
+.footer-item-second:hover,
+.footer-item-second:focus {
+  color: #2196F3;
 }
 
 .footer-icon {
@@ -618,6 +622,8 @@ address {
   justify-content: center;
   background-size: cover;
   background-position: center;
+
+  fill: #FFFFFF;
 }
 
 /* -------footer------- */

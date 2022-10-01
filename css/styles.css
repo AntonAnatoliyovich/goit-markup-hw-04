@@ -408,20 +408,23 @@ address {
 }
 
 .hero-item-fourth-icon {
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  background-color: inherit;
 }
 
 .hero-icon {
   display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: yellow;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+
+  padding: 12px;
 
   text-align: center;
   justify-content: center;
-  align-items: baseline;
   background-size: cover;
   background-position: center;
 }

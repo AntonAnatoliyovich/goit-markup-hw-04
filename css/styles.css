@@ -606,9 +606,9 @@ address {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.footer-item-second:hover,
-.footer-item-second:focus {
-  color: #2196F3;
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+  background-color: #2196F3;
 }
 
 .footer-icon {

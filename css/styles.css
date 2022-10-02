@@ -167,6 +167,7 @@ address {
 
 .header-mail {
   color: var(--second-color);
+  fill: var(--second-color);
 
   display: block;
 
@@ -179,6 +180,7 @@ address {
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .header-mail-icon-mail {
@@ -196,6 +198,7 @@ address {
 
 .header-tel {
   color: var(--second-color);
+  fill: var(--second-color);
 
   display: block;
 
@@ -208,6 +211,7 @@ address {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .header-mail-icon-phone {
